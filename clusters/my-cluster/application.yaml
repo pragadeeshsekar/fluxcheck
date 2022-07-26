@@ -21,7 +21,7 @@ metadata:
   namespace: flux-system
 spec:
   interval: 5m0s
-  path: ./manifests
+  path: ./deploy/manifests
   prune: true
   sourceRef:
     kind: GitRepository
